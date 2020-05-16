@@ -9,4 +9,5 @@ LABEL org.label-schema.schema-version="1.0" \
       org.label-schema.vcs-ref="$VCS_REF" \
       org.label-schema.build-date="$BUILD_DATE" \
       org.label-schema.dockerfile="/Dockerfile"
-RUN npm install @exlinc/keycloak-passport
+RUN npm install @exlinc/keycloak-passport \
+                node-red-contrib-home-assistant-websocket
